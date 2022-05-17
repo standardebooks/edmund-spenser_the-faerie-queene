@@ -1,2 +1,155 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+article,
+section{
+	break-after: page;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+	text-indent: 0;
+}
+
+/* Dedication */
+section[epub|type~="dedication"] b{
+	text-transform: uppercase;
+}
+
+section[epub|type~="dedication"] section[epub|type~="z3998:poem"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] section[epub|type~="z3998:poem"] > p{
+	display: inline-block;
+}
+
+section[epub|type~="dedication"]{
+	text-align: center; /* all dedications */
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* End dedication */
+
+/* Preface */
+section[epub|type~="preface"] header p{
+	font-variant: small-caps;
+	text-indent: 0;
+}
+
+section[epub|type~="preface"] header p + p{
+	margin-top: 1em;
+}
+
+section[epub|type~="preface"] b{
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+/* End preface */
+
+/* Bridgehead */
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
+[epub|type~="z3998:verse"] [epub|type~="bridgehead"],
+[epub|type~="z3998:song"] [epub|type~="bridgehead"],
+[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
+	text-align: justify;
+}
+/* End bridgehead */
+
+/* Letter */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* End letter */
+
+/* Poem */
+[epub|type~="z3998:poem"] header p{
+	display: inline-block; /* canto headers */
+	font-style: italic;
+}
+
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+/* End poem */
