@@ -16,8 +16,57 @@ section[epub|type~="dedication"] b{
 	text-transform: uppercase;
 }
 
-section[epub|type~="dedication"] > p{
+section[epub|type~="dedication"] [epub|type~="z3998:signature"]{
+	font-style: italic;
+	font-variant: normal;
+}
+
+section#dedication-1{
 	text-align: center;
+}
+
+section#dedication-1 > p{
+	display: inline-block;
+	font-size: 1.5em;
+	text-align: justify;
+	text-align-last: justify;
+	text-justify: inter-word;
+	width: 360px;
+}
+
+section#dedication-1 > p > abbr{
+	text-justify: none;
+}
+
+section#dedication-1 footer{
+	margin-top: 4em;
+	text-align: initial;
+}
+
+section#dedication-1 footer p + p{
+	margin-top: 3em;
+}
+
+section#dedication-1 footer p{
+	padding-left: 50%;
+	text-indent: 0;
+}
+
+section#dedication-1 footer p:nth-child(2){
+	text-indent: 4em;
+}
+
+section#dedication-1 footer p:nth-child(3){
+	text-indent: 5em;
+}
+
+section#dedication-2 p{
+	text-align: center;
+	text-indent: 0;
+}
+
+section#dedication-2 p b:first-child{
+	font-size: 1.5em;
 }
 /* End dedication */
 
