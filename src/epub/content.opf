@@ -28,6 +28,8 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Faerie Queene</dc:title>
 		<meta property="file-as" refines="#title">Faerie Queene, The</meta>
+		<meta property="dcterms:alternate" refines="#title">The Faerie Queen</meta>
+		<meta property="dcterms:alternate" refines="#title">The Faery Queene</meta>
 		<meta property="dcterms:alternate" refines="#title">The Fairy Queen</meta>
 		<dc:subject id="subject-1">Knights and knighthood -- Poetry</dc:subject>
 		<dc:subject id="subject-2">Virtues -- Poetry</dc:subject>
