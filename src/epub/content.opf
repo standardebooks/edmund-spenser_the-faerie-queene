@@ -38,9 +38,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010117960</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The poem follows knights that embody the Christian virtues of Holiness, Temperance, Chastity, Friendship, Justice, and Courtesy.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Long Description.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Faerie Queene&lt;/i&gt; is an incomplete epic poem by Edmund Spenser for Queen Elizabeth I. Only six of the intended twelve books were published before his death. Although never finished, this work stands as one of the longest poems in the English language. The poem introduces a verse form called the Spenserian stanza. This stanza contains eight lines in iambic pentameter followed by a line in iambic hexameter, with the rhyme scheme &lt;i&gt;ababbcbcc&lt;/i&gt;. Spenser purposely used archaic language to make the work feel comparable to the Arthurian myths written during the Middle Ages.&lt;/p&gt;
+			&lt;p&gt;Spenser used Aristotle’s list of virtues as the foundation for his work. Each of the six books follows knights that symbolize a unique virtue: the Knight of the Redcross for Holiness, Guyon for Temperance, Britomartis for Chastity, Cambell and Telamond for Friendship, Artegall for Justice, and Calidore for Courtesy. Fragments of an unfinished seventh book—the “Cantos of Mutability”—would have centered on the virtue of Constancy. In a letter to Sir Walter Raleigh, Spenser reveals that King Arthur represents the virtue of Magnificence, “the perfection of all the rest.”&lt;/p&gt;
+			&lt;p&gt;The first book opens with the Redcross Knight on a quest ordered by Queen Gloriana to defeat a horrible dragon. Traveling with him is Lady Una and her dwarf servant, who are leading the knight to the land where the dragon dwells. A terrible storm forces the travelers to shelter in the nearest cave—and a monster’s den.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!--Book 1-->
