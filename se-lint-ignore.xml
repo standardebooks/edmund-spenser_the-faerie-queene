@@ -5,10 +5,6 @@
 			<code>c-010</code>
 			<reason>The &lt;footer&gt; uses margin-top: 4em; for unique styling.</reason>
 		</ignore>
-		<ignore>
-			<code>t-033</code>
-			<reason>Some &lt;br/&gt; elements are placed inside words.</reason>
-		</ignore>
 	</file>
 	<file path="dedication-2.xhtml">
 		<ignore>
