@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edmund-spenser/the-faerie-queene</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-12-22T07:23:36Z</dc:date>
+		<meta property="dcterms:modified">2022-12-22T07:23:36Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,10 +38,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010117960</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">The poem follows knights that embody the Christian virtues of Holiness, Temperance, Chastity, Friendship, Justice, and Courtesy.</dc:description>
+		<dc:description id="description">Six knights embodying Christian virtues embark on allegorical quests.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Faerie Queene&lt;/i&gt; is an incomplete epic poem by &lt;a href="https://standardebooks.org/ebooks/edmund-spenser"&gt;Edmund Spenser&lt;/a&gt; for Queen Elizabeth I. Only six of the intended twelve books were published before his death. Although never finished, this work stands as one of the longest poems in the English language. The poem introduces a verse form called the Spenserian stanza. This stanza contains eight lines in iambic pentameter followed by a line in iambic hexameter, with the rhyme scheme &lt;i&gt;ababbcbcc&lt;/i&gt;. Spenser purposely used archaic language to make the work feel comparable to the Arthurian myths written during the Middle Ages.&lt;/p&gt;
-			&lt;p&gt;Spenser used Aristotle’s list of virtues as the foundation for his work. Each of the six books follows knights that symbolize a unique virtue: the Knight of the Redcross for Holiness, Guyon for Temperance, Britomartis for Chastity, Cambell and Telamond for Friendship, Artegall for Justice, and Calidore for Courtesy. Fragments of an unfinished seventh book—the “Cantos of Mutability”—would have centered on the virtue of Constancy. In a letter to Sir Walter Raleigh, Spenser reveals that King Arthur represents the virtue of Magnificence, “the perfection of all the rest.”&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Faerie Queene&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/edmund-spenser"&gt;Edmund Spenser’s&lt;/a&gt; magnum opus, composed for Queen Elizabeth I. The epic poem is incomplete, as only six of the intended twelve books were published before his death. Despite that, it stands as one of the longest poems in the English language.&lt;/p&gt;
+			&lt;p&gt;During its composition, Spenser invented a new type of verse form: the Spenserian stanza. The form consists of eight lines in iambic pentameter followed by a line in iambic hexameter, with the rhyme scheme &lt;i&gt;ababbcbcc&lt;/i&gt;. He purposely included archaic language and spelling to make the work feel comparable to the Arthurian myths written during the Middle Ages.&lt;/p&gt;
+			&lt;p&gt;Spenser used Aristotle’s list of virtues as the foundation for his work. Each of the six books follows a different knight who symbolize a unique virtue: the Knight of the Redcross for Holiness, Guyon for Temperance, Britomartis for Chastity, Cambell and Telamond for Friendship, Artegall for Justice, and Calidore for Courtesy. Fragments of an unfinished seventh book—the “Cantos of Mutability”—would have centered on the virtue of Constancy. In a letter to Sir Walter Raleigh, Spenser reveals that King Arthur represents the virtue of Magnificence, “the perfection of all the rest.”&lt;/p&gt;
 			&lt;p&gt;The first book opens with the Redcross Knight on a quest ordered by Queen Gloriana to defeat a horrible dragon. Traveling with him is Lady Una and her dwarf servant, who are leading the knight to the land where the dragon dwells. A terrible storm forces the travelers to shelter in the nearest cave—and a monster’s den.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
@@ -58,8 +59,8 @@
 		<!--Book 6 & Mutability-->
 		<dc:source>https://archive.org/details/spensersfaeriequ06spenuoft</dc:source>
 		<meta property="se:production-notes">All archaicisms are kept because of the author’s intentional usage.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">281562</meta>
+		<meta property="se:reading-ease.flesch">51.48</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Faerie_Queene</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edmund-spenser_the-faerie-queene</meta>
 		<dc:creator id="author">Edmund Spenser</dc:creator>
@@ -84,6 +85,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
