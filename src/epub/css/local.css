@@ -26,13 +26,13 @@ section[epub|type~="dedication"] [epub|type~="z3998:signature"]{
 }
 
 #dedication-1 > p{
-	text-transform: uppercase;
 	display: inline-block;
 	font-size: 1.5em;
+	max-width: 13em;
 	text-align: justify;
 	text-align-last: justify;
 	text-justify: inter-word;
-	max-width: 13em;
+	text-transform: uppercase;
 }
 
 #dedication-1 > p > abbr{
