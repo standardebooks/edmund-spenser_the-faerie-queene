@@ -60,7 +60,7 @@
 		<dc:source>https://archive.org/details/spensersfaeriequ06spenuoft</dc:source>
 		<meta property="se:production-notes">All archaicisms are kept because of the author’s intentional usage.</meta>
 		<meta property="se:word-count">281554</meta>
-		<meta property="se:reading-ease.flesch">51.48</meta>
+		<meta property="se:reading-ease.flesch">51.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Faerie_Queene</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edmund-spenser_the-faerie-queene</meta>
 		<dc:creator id="author">Edmund Spenser</dc:creator>
