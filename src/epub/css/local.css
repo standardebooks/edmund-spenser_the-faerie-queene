@@ -27,7 +27,7 @@ section[epub|type~="dedication"] [epub|type~="z3998:signature"]{
 
 #dedication-1 > p{
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: larger;
 	max-width: 13em;
 	text-align: justify;
 	text-align-last: justify;
@@ -67,7 +67,7 @@ section[epub|type~="dedication"] [epub|type~="z3998:signature"]{
 }
 
 #dedication-2 p b:first-child{
-	font-size: 1.5em;
+	font-size: larger;
 }
 /* End dedication */
 
@@ -82,7 +82,7 @@ section[epub|type~="preface"] header p + p{
 }
 
 section[epub|type~="preface"] b{
-	font-size: 1.25em;
+	font-size: larger;
 	text-transform: uppercase;
 }
 /* End preface */
