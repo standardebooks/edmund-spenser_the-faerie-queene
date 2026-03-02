@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="dedication-1.xhtml">
-		<ignore>
-			<code>c-010</code>
+		<ignore code="c-010">
 			<reason>The &lt;footer&gt; uses margin-top: 4em; for unique styling.</reason>
 		</ignore>
 	</file>
 	<file path="dedication-2.xhtml">
-		<ignore>
-			<code>t-033</code>
+		<ignore code="t-033">
 			<reason>Some &lt;br/&gt; elements are placed inside words.</reason>
 		</ignore>
 	</file>
