@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edmund-spenser/the-faerie-queene</dc:identifier>
 		<dc:date>2022-12-22T07:23:36Z</dc:date>
@@ -40,13 +40,13 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2010117960</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:description id="description">Six knights embodying Christian virtues embark on allegorical quests.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Six knights embodying Christian virtues embark on allegorical quests.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Faerie Queene&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/edmund-spenser"&gt;Edmund Spenser’s&lt;/a&gt; magnum opus, composed for Queen Elizabeth I. The epic poem is incomplete, as only six of the intended twelve books were published before his death. Despite that, it stands as one of the longest poems in the English language.&lt;/p&gt;
 			&lt;p&gt;During its composition, Spenser invented a new type of verse form: the Spenserian stanza. The form consists of eight lines in iambic pentameter followed by a line in iambic hexameter, with the rhyme scheme &lt;i&gt;ababbcbcc&lt;/i&gt;. He purposely included archaic language and spelling to make the work feel comparable to the Arthurian myths written during the Middle Ages.&lt;/p&gt;
 			&lt;p&gt;Spenser used Aristotle’s list of virtues as the foundation for his work. Each of the six books follows a different knight who symbolize a unique virtue: the Knight of the Redcross for Holiness, Guyon for Temperance, Britomartis for Chastity, Cambell and Telamond for Friendship, Artegall for Justice, and Calidore for Courtesy. Fragments of an unfinished seventh book—the “Cantos of Mutability”—would have centered on the virtue of Constancy. In a letter to Sir Walter Raleigh, Spenser reveals that King Arthur represents the virtue of Magnificence, “the perfection of all the rest.”&lt;/p&gt;
 			&lt;p&gt;The first book opens with the Redcross Knight on a quest ordered by Queen Gloriana to defeat a horrible dragon. Traveling with him is Lady Una and her dwarf servant, who are leading the knight to the land where the dragon dwells. A terrible storm forces the travelers to shelter in the nearest cave—and a monster’s den.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!--Book 1-->
 		<dc:source>https://archive.org/details/spensersfaeriequ01spenuoft</dc:source>
