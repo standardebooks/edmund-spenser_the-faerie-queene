@@ -76,7 +76,6 @@
 		<dc:contributor id="artist">William Segar</dc:contributor>
 		<meta property="file-as" refines="#artist">Segar, William</meta>
 		<link href="https://en.wikipedia.org/wiki/William_Segar" refines="#artist" rel="schema:sameAs"/>
-		<meta property="schema:alternateName" refines="#artist">Sir William Segar</meta>
 		<link href="https://id.loc.gov/authorities/names/nr91025091.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
@@ -91,7 +90,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
